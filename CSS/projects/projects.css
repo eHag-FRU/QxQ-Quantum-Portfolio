@@ -1,0 +1,25 @@
+body main h1 {
+    text-align: center;
+}
+
+body main h2 {
+    text-decoration: underline;
+}
+
+body main img {
+    float: right;
+    margin-right: 10px;
+}
+
+#note {
+    text-decoration: underline;
+}
+
+.clearFloat {
+    clear: both;
+}
+
+#moreSoon {
+    margin: 50px 250px;
+
+}

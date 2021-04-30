@@ -1,0 +1,15 @@
+* {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 a, li a{ 
+    color: black;
+}
+
+body main li a:hover , h2 a:hover {
+    color: red;
+}

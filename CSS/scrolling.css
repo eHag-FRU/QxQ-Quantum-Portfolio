@@ -1,0 +1,90 @@
+/*tgap is the gap between the header and main section of the body. 
+  bgap is the gap between the main section of the body and the footer.
+  gap is the space between the navigation and the main section of the body
+*/
+.grid {
+	display: grid;
+	grid-template: 
+	"logo  header header   header" 100px
+	"nav    tgap   tgap     tgap" 10px
+	"nav     gap   content content" 1fr
+	"nav     bgap   bgap     bgap" 10px
+	"footer  footer footer  footer" 50px
+	/ 100px  10px   770px    100px;
+	}
+
+/*#signature {
+	width: 444px;
+	height: 50px;
+}
+
+* {
+	font-family: Calibri;
+}
+
+body {
+	background: url(images/background.jpg);
+}
+
+img {
+	grid-area: logo;
+}
+
+header {
+	grid-area: header;
+	background-color: rgba(46, 192, 234, 0.50);
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+nav {
+	grid-area: nav;
+	list-style-type: none;
+	background-color: rgba(46, 192, 234, 0.50);
+}
+
+nav ul {
+	list-style-type: none;
+	color: white;	
+	display: inline;
+}
+
+	nav ul a {
+		text-decoration: none;
+		font-size: 20px;
+		margin: 2.5px;
+	}*/
+
+	/*Visited links in the navigation*/
+	/*nav a:visited {
+		color: white;*/  /*The color is white so then the color does not clash with the background*/
+	/*}*/
+
+/*Mouse hover over the navigation*/
+/*nav a:hover {
+	color: #333;
+}
+
+nav a:link {
+	color: white;
+}*/
+
+/*The main section of the body*/
+/*main {
+	grid-area: content;
+	font-family: Calibri;
+	background-color: rgba(255, 255, 255, 0.50);
+}*/
+
+/*The main paragraph, header 1, and header 2*/
+/*main p, h1, h2 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+footer {
+	grid-area: footer;
+	background-color: rgba(155, 155, 155, 0.90);
+	text-align: center;
+}*/

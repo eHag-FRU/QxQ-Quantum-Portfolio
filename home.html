@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Introduction letter, explaining the purpose and a summary of the content within">
+    <meta name="author" content="Elliott J. Hager">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js" type="text/javascript"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //This statement takes the class of currentPage and changes the text color to red
+            //The currentPage class does not contain any CSS and is a dummy class to pinpoint HTML objects 
+            //Inturn this highlights the page the user is currently on in red in the site navagation bar to the right
+            $(".currentPage").css("color", "red");
+
+        });
+    </script>
+
+    <title>STEM Honors</title>
+    <link rel="stylesheet" href="CSS/mainLayout.css">
+    <link rel="icon" href="images/icon/icon.ico">
+</head>
+
+    <body>
+        <div class="grid">
+            <a href="home.html"><img src="images/spacerImage.jpg" title="Black Laptop Keyboard" alt="Black computer keyboard, close to camera"></a>
+            
+            <header>
+                <h1>High School S.T.E.M Honor's ePortfolio</h1>
+            </header>
+            
+            <nav>
+                <ul>
+                    <li><a href="home.html" class="currentPage">Home</a></li>
+
+                    <li><p> </p><li>
+
+                    <li><a href="career.html">Career</a></li>
+
+                    <li><p> </p><li>
+
+                    <li><a href="projects.html">Projects</a></li>
+
+                    <li><p> </p><li>
+
+                    <li><a href="aboutMe.html">About Me</a></li>
+
+                    <li><p> </p><li>
+
+                    <li><a href="contactMe.html">Contact Me</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <h1>Introduction Letter</h1>
+                <h2>Dear reader,</h2>
+                <p>
+                    This website contains my (Elliott Hager's) high school S.T.E.M honor's portfolio (<a href="http://education.ohio.gov/Topics/Ohio-s-Graduation-Requirements/Honors-Diplomas/STEM-Honors-Diploma">Requirements</a>). 
+                    My area of focus is on software engineering, which I have learned about through the CCP program at Franklin
+                    University. Starting out, I knew a small bit of Python, but now looking back I have learned  so much as a computer scientist and software engineer.
+                    <strong><em>An extra portfolio is nested inside for a flex-credit course I took, <a href="https://www.qubitbyqubit.org/">Qubit x Quibit (QxQ)</a> Intro to Quantum Computing. This course is the first course in the world
+                    that teaches high schoolers the basics of quantum computing and Qiskit. (Not yet finished or added)</em></strong> There are  four main areas: <a href="career.html">career</a>, <a href="projects.html">projects</a>, an <a href="aboutMe.html">about me</a> page, and a <a href="contactMe.html">contact me</a> page for questions. The career section will discuss
+                    my future plans as a move closer to adulthood.  College applications, what types of jobs I would be looking for, and my resume are included.
+                    The project section of the site will contain a few projects that I have done myself to show that I can apply the information and theories that I have
+                    learned in classes. The following languages are what I have learned: Python, Java, SQL, Assembly (Little Man Computer), and Qiskit. The about me section of this 
+                    contains the lists of courses I have taken (HS and college), a basic description of me, and a picture of myself.
+                </p>
+                <h2>Sincerely, <br>
+                  <img id="signature" src="images/signature.png" title="Signature" alt="Elliott J Hager">
+                </h2>
+                
+            </main>
+            
+            <footer>
+                <p>Email : <a href="mailto:hager10@email.franklin.edu"><em>hager10@email.franklin.edu</em></a> &nbsp; &#124; &nbsp; <a href="sitemap.html">Sitemap</a></p>
+            </footer>
+        </div>
+    </body>
+</html>

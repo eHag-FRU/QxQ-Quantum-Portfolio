@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+ <html lang="en">  
+ <head>
+     <meta charset="utf-8">
+     <meta name="description" content="Form to reach out to me by email (Personal/Casual, Business, or Academic)">
+     <meta name="author" content="Elliott J. Hager">
+
+     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js" type="text/javascript"></script>
+     <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.js" type="text/javascript"></script>
+     <script type="text/javascript">
+        $(document).ready(function () {
+            //This statement takes the class of currentPage and changes the text color to red
+            //The currentPage class does not contain any CSS and is a dummy class to pinpoint HTML objects
+            //For color change to match the curren page of the site the user is on
+            //This JavaScript is present on other pages (except for the sitemap)
+            $(".currentPage").css("color", "red");
+
+        });
+     </script>
+
+     <title>STEM Honors &ndash; Contact Me</title>
+     <link rel="stylesheet" href="CSS/mainLayout.css">
+     <link rel="stylesheet" href="CSS/contactMe/contactMe.css">
+     <link rel="icon" href="images/icon/icon.ico">
+ </head>
+
+    <body>
+        <div class="grid">
+            <a href="home.html"><img src="images/spacerImage.jpg" title="Black Computer Keyboard" alt="Black computer keyboard, close to camera"></a>
+
+            <header>
+                <h1>High School S.T.E.M Honor's ePortfolio</h1>
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+
+                    <li><p> </p><li>
+
+                    <li><a href="career.html">Career</a></li>
+
+                    <li><p> </p><li>
+
+                    <li><a href="projects.html">Projects</a></li>
+
+                    <li><p> </p><li>
+
+                    <li><a href="aboutMe.html">About Me</a></li>
+
+                    <li><p> </p><li>
+
+                    <li><a href="contactMe.html" class="currentPage">Contact Me</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <h1>Contact Me</h1>
+
+                <p><strong><em>(*) Fields are required</em></strong></p>
+
+                <form method="post" action="mailto:hager10@email.franklin.edu?subject=Portfolio" enctype="text/plain" id="formGrid">
+                    <fieldset class="contactInfo">
+                        <legend>Contact Information</legend>
+                           <label for="fName" class="contactInfo">* First Name</label>
+                           <input type="text" name="fName" id="fName" placeholder="Jane" required class="contactInfo">
+                       
+                           <label for="lName">* Last Name</label>
+                           <input type="text" name="lName" id="lName" placeholder="Doe" required>
+                        
+                           <label for="Email">*Email</label>
+                           <input type="email" name="Email" id="Email" placeholder="janeDoe@yahoo.com" required>
+                    </fieldset>
+
+                    <fieldset class="inquiryType">
+                        <legend>Inquiry Type</legend> 
+                        <input type="radio" name="InquiryType" value="Personal/Casual" checked="checked"> Personal/Casual <br><br>
+
+                        <input type="radio" name="InquiryType" value="Business/Job Offer"> Business/Job Offer  <br><br>
+
+                        <input type="radio" name="InquiryType" value="Academic/College/University"> Academic/College/University  <br><br>
+
+                    </fieldset>
+
+                    <fieldset class="programingLang">
+                        <legend>Language of Interest</legend>
+
+                        <p>(Select all that apply)</p>
+
+                        <input type="checkbox" name="lang" value="HTML 5"> HTML 5 <br>
+
+                        <input type="checkbox" name="lang" value="CSS 3"> CSS 3 <br>
+
+                        <input type="checkbox" name="lang" value="Java 8">Java 8 <br>
+
+                        <input type="checkbox" name="lang" value="Python">Python <br>
+
+                        <input type="checkbox" name="lang" value="Qiskit">Qiskit
+                    </fieldset>
+
+                    <fieldset class="comments">
+                        <legend>Comments</legend>
+                        <label for="QuestionsAndComments">* Questions, Comments</label>
+                        <textarea name="QuestionsAndComments" placeholder="Please type questions or comments here" id="QuestionsAndComments" required></textarea>
+                    </fieldset>
+
+
+                    <button type="reset" class="reset">Reset</button>
+                    <button type="submit" class="submit">Submit</button>
+                </form>
+            </main>
+
+            <footer>
+                <p>Email : <a href="mailto:hager10@email.franklin.edu"><em>hager10@email.franklin.edu</em></a> &nbsp; &#124; &nbsp; <a href="sitemap.html">Sitemap</a></p>
+            </footer>
+        </div>
+    </body>
+</html>

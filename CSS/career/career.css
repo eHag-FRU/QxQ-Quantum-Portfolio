@@ -1,0 +1,13 @@
+body main h1 {
+    text-align: center;
+}
+
+#resumeImg {
+    margin-left: 139px;
+    margin-right: 139px;
+}
+
+#citation {
+    margin-left: 139px;
+    font-size: smaller;
+}

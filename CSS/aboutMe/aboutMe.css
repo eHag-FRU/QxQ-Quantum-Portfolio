@@ -1,0 +1,30 @@
+body main h1 {
+    text-align: center;
+}
+
+body main img {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+body main h3 {
+    margin-left: 10px;
+}
+
+body main ul {
+    text-align: left;
+    list-style: none;
+}
+
+.list{
+    list-style: square;
+}
+
+#clearFloat {
+    clear: both;
+}
+
+.citation {
+    font-size: smaller; 
+}

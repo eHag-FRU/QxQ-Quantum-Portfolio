@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Projects I have done off to test out newly learned things, and to keep my skills sharp.">
+    <meta name="author" content="Elliott J. Hager">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js" type="text/javascript"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //This statement takes the class of currentPage and changes the text color to red
+            //The currentPage class does not contain any CSS and is a dummy class to pinpoint HTML objects
+            //For color change to match the curren page of the site the user is on
+            //This JavaScript is present on other pages (except for the sitemap)
+            $(".currentPage").css("color", "red");
+
+        });
+    </script>
+
+    <title>STEM Honors &ndash; Projects</title>
+    <link rel="stylesheet" href="CSS/mainLayout.css">
+    <link rel="stylesheet" href="CSS/scrolling.css">
+    <link rel="stylesheet" href="CSS/projects/projects.css">
+    <link rel="icon" href="images/icon/icon.ico">
+</head>
+
+    <body>
+        <div class="grid">
+            <a href="home.html"><img src="images/spacerImage.jpg" title="Black Computer Keyboard" alt="Black computer keyboard, close to camera"></a>
+
+            <header>
+                <h1>High School S.T.E.M Honor's ePortfolio</h1>
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+
+                    <li><p> </p><li>
+
+                    <li><a href="career.html">Career</a></li>
+
+                    <li><p> </p><li>
+
+                    <li><a href="projects.html" class="currentPage">Projects</a></li>
+
+                    <li><p> </p><li>
+
+                    <li><a href="aboutMe.html">About Me</a></li>
+
+                    <li><p> </p><li>
+
+                    <li><a href="contactMe.html">Contact Me</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <h1>Projects</h1>
+
+                <p id="note">
+                    <strong>
+                        <em>
+                            The images to the left of each project description are links to Repl.it pages where the programs, in
+                            their entirety, are hosted. The programs can be ran on the website by clicking the play button. (Except for the honors page)
+                        </em>
+                    </strong>
+                </p>
+
+
+                <h2><br>Project APEX</h2>
+                <a href="https://replit.com/@Casual_Tube/APEX#main.py"><img src="images/projects/apex.png" title="APEX" alt="Black screen that says welcome to Apex"></a>
+
+                <p>
+                    This is the first major program that I had wrote. Apex is a basic digital assistant, with a calculator, conversation bot (WIP), small games (WIP), and more.
+                    This was written in Python and was last updated in spring of 2019. A Java port is currently in the works.
+                </p>
+
+
+                <br><br><br><br><br><br><br><h2 class="clearFloat">Adv. Geometry Olympic Logo</h2>
+                <a href="https://replit.com/@Casual_Tube/Olympic-Citiy-Logo"><img src="images/projects/olympicLogo.png" title="Custom Japanese Olympic Flag" alt="A geometric focused, custom Japanese flag colored based on the olympic colors"></a>
+
+                <p>
+                    This project was made for high school advanced geometry. The original project asked for the student to draw an Olympic
+                    logo for a country they choose and to include different geometric aspects (tangents on a circle, different angles, etc.)
+                    I chose to do Japan, and asked the teacher if I could make a program to draw my logo instead of doing it by hand.
+                    This was done in Python with the Turtle library. At this point, I had not has any experience with object oriented programing.
+                    The code is messy, but I wanted to leave it in its original state.
+                </p>
+
+                <br><br><br><br><br><br><br><h2 class="clearFloat">STEM Honors Web Portfolio (The collection of web pages you are on now!)</h2>
+                <a href="home.html"><img src="images/projects/honorsPage.png" title="Homepage" alt="Homepage of STEM Honors E-Portfolio"></a>
+
+                <p>
+                    The portfolio that is being viewed currently is one of my projects! This was a project for WEBD-101 at Franklin University during the Spring 2021
+                    semester. This page was made from the ground level up, with HMTL, CSS, and a small bit of JavaScript and jQuery. One week at a time, the project was
+                    built upon, which was finished by the last day of class (4/17/2021). Professor Waicheong Jefferylam helped answer questions when I wanted to tweak or change 
+                    aspects of the pages that moved away from the requirements. The occasional moving away from the requirements was due to the purpose of the sites creation and use.
+                    An example of this is the requirement to have one (1) CSS file, but multiple CSS files were permitted due to it fitting the purpose of the site better.
+                </p>
+
+
+                <img src="images/projects/upcoming.png" class="clearFloat" id="moreSoon" title="More Soon" alt="There are more projects to come">
+
+
+
+            </main>
+
+            <footer>
+                <p>Email : <a href="mailto:hager10@email.franklin.edu"><em>hager10@email.franklin.edu</em></a> &nbsp; &#124; &nbsp; <a href="sitemap.html">Sitemap</a></p>
+            </footer>
+        </div>
+    </body>
+</html>

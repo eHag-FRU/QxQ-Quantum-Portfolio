@@ -1,0 +1,50 @@
+#formGrid {
+    display: grid;
+
+    grid-template:
+        "contactInfo contactInfo inquiryType inquiryType programingLang programingLang comments comments" 100px
+        "contactInfo contactInfo inquiryType inquiryType programingLang programingLang comments comments" 100px
+        ". . .  submit reset . comments comments" 100px
+        /100px 100px 100px 100px 100px 100px 100px 100px 100px 100px
+}
+
+.contactInfo {
+    grid-area: contactInfo;
+}
+
+.programingLang {
+    grid-area: programingLang;
+}
+
+.inquiryType {
+    grid-area: inquiryType;
+}
+
+.comments {
+    grid-area: comments;
+}
+
+.reset {
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+    grid-area: reset;
+}
+
+.submit {
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+    grid-area: submit;
+
+}
+
+body main ul li {
+    list-style: none;
+    display: inline-grid;  
+}
+
+textarea {
+    width: 260px;
+    height: 237px;
+}
