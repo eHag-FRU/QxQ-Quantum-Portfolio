@@ -32,7 +32,7 @@ img {
 
 header {
 	grid-area: header;
-	background-color: rgba(105, 162, 104, 0.50);
+	background-color: rgba(105, 162, 104, 0.70);
 	color: white;
 	text-align: center;
 	font-size: 20px;
@@ -41,7 +41,7 @@ header {
 nav {
 	grid-area: nav;
 	list-style-type: none;
-	background-color: rgba(105, 162, 104, 0.50);
+	background-color: rgba(105, 162, 104, 0.70);
 }
 
 nav ul {
