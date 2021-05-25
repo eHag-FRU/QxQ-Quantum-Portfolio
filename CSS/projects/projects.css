@@ -11,6 +11,10 @@ body main img {
     margin-right: 10px;
 }
 
+iframe{
+    margin: 40px;
+}
+
 #note {
     text-decoration: underline;
 }
