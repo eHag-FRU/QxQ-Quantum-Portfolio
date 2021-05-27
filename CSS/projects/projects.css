@@ -11,8 +11,9 @@ body main img {
     margin-right: 10px;
 }
 
-iframe{
-    margin: 40px;
+.examples{
+   margin-left: 40px;
+   margin-right: 40px;
 }
 
 #note {
