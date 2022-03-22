@@ -6,6 +6,7 @@ body main img {
     float: left;
     margin-right: 10px;
     margin-left: 10px;
+    height: 200px;
 }
 
 body main h3 {
